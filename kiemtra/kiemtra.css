@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Roboto",sans-serif;
+}
+body{
+    background: #F5F6CE;
+}
+.container{
+    width:980px;
+    margin: 0 auto;
+
+}
+header{
+    height: 100px;
+    background: orange;
+}
+header img {
+    padding-left: 30px;
+}
+nav{
+    height: 35px;
+    background: blue;
+    margin-bottom: 10px;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float:left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    color:aliceblue;
+    font-size: 12px;
+    text-decoration: none;
+}
+nav .search{
+    line-height: 35px;
+    float:right;
+    margin-right: 25px;
+}
+main {
+    flex: 1; /* Main content sáº½ má»Ÿ rá»™ng Ä‘á»ƒ chiáº¿m háº¿t khÃ´ng gian cÃ²n láº¡i */
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-column {
+    flex: 4; /* Má»—i cá»™t sáº½ má»Ÿ rá»™ng Ä‘á»ƒ chiáº¿m má»™t pháº§n cá»§a main content */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align:justify;
+}
+.right-column {
+    flex: 2; /* Má»—i cá»™t sáº½ má»Ÿ rá»™ng Ä‘á»ƒ chiáº¿m má»™t pháº§n cá»§a main content */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align:center;
+    height:min-content;
+}
+.right-column a {
+    text-decoration: none;
+    display:block;
+}
+
+.left-column div, .right-column div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    flex: 1; /* Má»—i khung sáº½ má»Ÿ rá»™ng Ä‘á»ƒ chiáº¿m pháº§n cá»§a cá»™t */
+}
+.icon .fa {
+    font-size: 32px;
+    color: black;
+
+}
+
+
+footer {
+    background-color:orange;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    width: 33.33%;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 3px;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+    color: white;
+  }
+  table{
+    width:100%;
+    height:100px;
+    border:0;
+    top: 0px;
+  }
+  .text-animation {
+    font-size: 70px;
+  }
+  
+    
